@@ -3433,7 +3433,7 @@ def main():
     t0 = perf_counter()
 
     # only PGL Copenhagen 2024 data has been tested in this experiment
-    tournament_str = "pgl_vitality_overpass"
+    tournament_str = "tournament_name_0"
 
     demofiles = retrieve_demo_paths(
         tournaments=[tournament_str, ],
@@ -3445,7 +3445,7 @@ def main():
     run_data(demofiles, False, tournament_str, 1)
 
     npzfiles = [ # cannot derive these strings
-        "M-pgl_vitality_overpass,IMPERIAL-ESPORTS_vs_VITALITY,overpass,1",
+        "placeholder_demo_0",
     ]
     run_data(npzfiles, True, tournament_str, 1)
 
