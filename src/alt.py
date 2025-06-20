@@ -31,10 +31,10 @@ def show_column_info(final: DataFrame) -> None:
 
 
 role    = "arn:aws:iam::123456789012:role/SageMakerRole"
-s3_uri  = "s3://my-bucket/ct_rounds.npz"
+s3_uri  = "s3://my-bucket/team_rounds.npz"
 
 estimator = RLEstimator(
-    entry_point    = "train_local.py",   # uses exactly the same script
+    entry_point    = "main.py",   # uses exactly the same script
     source_dir     = ".",                # must include cs2_env.py & train_local.py
     role           = role,
     instance_count = 1,
