@@ -1,0 +1,51 @@
+
+
+
+Novelty:
+- Dataset is digitally produced
+- Edge connectivity represents information
+- High frequency with 128 timesteps per second
+- Very repetitive and consistent with the same openings and objectives every time
+
+Rigor:
+- idk
+
+Explainability:
+- Spatiotemporal positional data can be easily visualized with matplotlib
+- FPS video games provide a first-person view in a shooting video game with kills and deaths
+- The attacking team aims to control space on map, and the defending team opposes them
+
+Negatives
+- Illegal positional coordinates may be generated for players
+
+
+Data
+
+    - G2
+        - inferno
+            - 08|04 vs Ecstatic, W
+            - 05|07 vs Virtus.pro, L
+            - 08|04 vs Mouz, W
+        - anubis
+            - 08|04 vs Ecstatic, W
+            - 08|04 vs Virtus.pro, W
+            - 04|08 vs Natus Vincere, L
+
+    - Natus Vincere
+        - mirage
+            - 07|05 vs Cloud9, W
+            - 09|03 vs Eternal Fire, W
+            - 02|10 vs FaZe, L
+        - ancient
+            - 04|08 vs Cloud9, L
+            - 08|04 vs G2, W
+            - 07|05 vs FaZe, W
+
+    - Vitality
+        - overpass
+            - 07|05 vs Imperial, W
+
+
+todo
+
+

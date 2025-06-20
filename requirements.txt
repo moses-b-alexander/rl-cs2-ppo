@@ -1,0 +1,12 @@
+beautifulsoup4==4.13.4
+demoparser2==0.38.0
+fake_useragent==1.5.1
+gymnasium==0.28.1
+matplotlib==3.7.1
+numpy==1.23.5
+pandas==1.5.3
+patool==2.2.0
+psutil==5.9.8
+ray==2.30.0
+Requests==2.32.3
+torch==1.13.1+cu116
